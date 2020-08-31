@@ -42,7 +42,7 @@ Uma solução simples para quem precisa comparar se os dois campos de senha fora
 
 <div id="senhaerro" name="senhaerro"></div>
 
-button type="submit" id="btnCad" onclick="validarSenha()">Cadastrar</button>
+<button type="submit" id="btnCad" onclick="validarSenha()">Cadastrar</button>
 
 ```
 
