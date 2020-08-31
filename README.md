@@ -2,10 +2,10 @@
 
 Uma solução simples para quem precisa comparar se os dois campos de senha foram digitados igualmente.
 
-1º Passo, implemente esse script.
+1º Passo, implemente esse script no seu html.
 
 ```js
-
+<script>
  function validarSenha(){
         NovaSenha = document.formCadastro.senha.value;
         1NovaSenha = document.formCadastro.senha1.value;
@@ -15,7 +15,7 @@ Uma solução simples para quem precisa comparar se os dois campos de senha fora
         }
         return true;
  }
-
+</script>
 ```
 
 2º Passo, crie o formulário e faça um onSubmit para retornar a função quando o formulário for chamado.
