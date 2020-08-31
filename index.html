@@ -1,0 +1,29 @@
+<!--
+Author: Gustavo Messias
+GitHub: http://github.com/gustavomgs
+E-Mail: gustavomgs13@gmail.com
+
+Espero ter ajudado.
+-->
+
+<script>
+ function validarSenha(){
+        NovaSenha = document.formCadastro.senha.value;
+        1NovaSenha = document.formCadastro.senha1.value;
+        if (NovaSenha != 1NovaSenha){ 
+             $('#senhaerro').html('Erro, as senhas digitadas não estão corretas.');
+             return false;
+        }
+        return true;
+ }
+ </script>
+ 
+ <form method="post" action="cadastrar" id="formCadastro" name="formCadastro" onsubmit="return validarSenha();">
+ 
+ <input class="form-control" id="senha" name="senha" type="password" placeholder="Digite sua senha" required>
+ <input class="form-control" id="senha1" name="senha1" type="password"  placeholder="Confirme sua senha" required>
+
+ <div id="senhaerro" name="senhaerro"></div>
+ 
+ button type="submit" id="btnCad" onclick="validarSenha()">Cadastrar</button>
+ </form>
