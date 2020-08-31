@@ -1,4 +1,4 @@
-# Verificar Senhas Iguais JS
+<h4 align="center"> Verificar Senhas Iguais JS</h4>
 
 Uma solução simples para quem precisa comparar se os dois campos de senha foram digitados igualmente.
 
